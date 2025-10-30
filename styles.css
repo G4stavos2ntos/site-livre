@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #1b5e20; /* verde escuro estilo Minecraft */
+    color: #f1f1f1;
+    padding: 30px;
+  }
+  
+  .main {
+    max-width: 800px;
+    margin: auto;
+    background: #263238; /* tom grafite */
+    padding: 25px;
+    border-radius: 8px;
+    border: 3px solid #4caf50;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #8bc34a;
+    font-size: 2rem;
+  }
+  
+  p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+  }
+  
+  .intro {
+    background: #2e7d32;
+    padding: 12px;
+    border-left: 5px solid #8bc34a;
+    border-radius: 4px;
+  }
+  
+  h3 {
+    margin-top: 18px;
+    margin-bottom: 6px;
+    font-size: 1.2rem;
+    color: #aed581;
+  }
+  
+  /* Destaques para minérios */
+  h3.diamante { color: #00e5ff; }
+  h3.ouro { color: #ffca28; }
+  h3.carvao { color: #bdbdbd; }
+  
+  .minerio-box {
+    background: #37474f;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 4px solid #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .footer-note {
+    font-size: .85rem;
+    text-align: right;
+    margin-top: 15px;
+    opacity: .8;
+  }
+  
